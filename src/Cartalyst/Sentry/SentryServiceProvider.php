@@ -39,7 +39,6 @@ class SentryServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('cartalyst/sentry', 'cartalyst/sentry');
 	}
 
 	/**
